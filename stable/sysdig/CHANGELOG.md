@@ -3,12 +3,18 @@
 This file documents all notable changes to Sysdig Helm Chart. The release
 numbering uses [semantic versioning](http://semver.org).
 
+## v1.4.5
+
+### Minor Changes
+
+* Backport features added while adding support to IBM Marketplace.
+
 ## v1.4.4
 
 ### Minor Changes
 
 * Use the latest image from Agent (0.89.5) by default.
-* Add `persistentvolumes` and `persistentvolumeclaims` to ClusterRole
+* Add `persistentvolumes` and `persistentvolumeclaims` to ClusterRole.
 
 ## v1.4.3
 
